@@ -1,5 +1,4 @@
 #!/bin/bash
-set -eu
 
 # データをバックアップするディレクトリ
 backup_dir_path=~/Dropbox/project/Kobito
@@ -17,7 +16,7 @@ db_filename=Kobito.db.$date.bak
 db_shm_filename=Kobito.db-shm.$date.bak
 db_wal_filename=Kobito.db-wal.$date.bak
 
-# バックアップ
+# バックアップ処理
 echo "バックアップディレクトリは $backup_dir_path です"
 
 cp -p $data_dir_path/Kobito.db $backup_dir_path/$db_filename && echo "Kobito.db を $db_filename としてバックアップしました"
