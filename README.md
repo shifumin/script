@@ -1,4 +1,4 @@
-script
+Shellscript
 =========
 
 ## backup_kobito.sh
