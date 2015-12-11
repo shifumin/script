@@ -3,4 +3,8 @@ Shellscript
 
 ## backup_kobito.sh
 
-Kobitoのデータベースをバックアップするスクリプト。
+Kobitoのデータをバックアップするスクリプト。
+
+## link_kobito.sh
+
+Kobitoのデータ保存ディレクトリにDropboxに保存されているKobitoのデータのハードリンクを貼るスクリプト。
